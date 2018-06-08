@@ -173,10 +173,8 @@ all_probs = []
 ALPHA = 0.00003     # step size
 ##End codePrep
 
-
-
 ##Begin codeTraining
-NUMBER_OF_GAMES = 1000
+NUMBER_OF_GAMES = 5000
 begintime = time.time()
 for game in range(NUMBER_OF_GAMES):
     board_log, action_log, probs_log, result = play_game()
